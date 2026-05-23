@@ -1,14 +1,26 @@
 # Pictogram Dataset for Anonymous Review
 
-To maintain the double-blind review process, all personal identifiers and file metadata (EXIF/GPS) have been completely stripped.
+To maintain the double-blind review process, all personal identifiers and file metadata have been completely stripped.
 
 ## 📊 Dataset Specifications
-* **Total Images:** 330
-* **Formats Detected:** .JPG
-* **Directory Structure:** All files are available in the `/data` folder.
+* **Total Pictograms:** 330
+* **Format:** .JPG
+* **Directory Structure:** All pictograms are available in the `/data` folder.
+
+## 🏷️ File Naming Convention
+Each pictogram in this dataset follows a structured naming pattern:
+
+```text
+{concept}_{condition_map}_{ranking}.ext
+```
+
+Where each field represents:
+* **concept**: The concept represented by the pictogram (e.g., Ajolote).
+* **condition_map**: The conditioning map used to generate the pictogram (e.g., canny).
+* **ranking**: The rank obtained by the pictogram in the survey conducted to select the best pictogram among three alternatives (where 1 represents the highest-voted option).
 
 ## 🖼️ Full Dataset Gallery
-Below is the complete collection of images included in this release:
+Below is the complete collection of pictograms included in this dataset:
 
 <table>
   <tr>
