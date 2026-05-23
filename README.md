@@ -19,6 +19,8 @@ Where each field represents:
 * **condition_map**: The conditioning map used to generate the pictogram (e.g., canny).
 * **ranking**: The rank obtained by the pictogram in the survey conducted to select the best pictogram among three alternatives (where 1 represents the highest-voted option).
 
+**Remark.** Filenames corresponding to tied pictograms generated with the same condition map include the suffix `_dup` (e.g., `Bread_canny_1_dup.jpg`).
+
 ## 🖼️ Full Dataset Gallery
 Below is the complete collection of pictograms included in this dataset:
 
@@ -127,8 +129,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Bread_canny_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Bread_canny_1_dup1.jpg" width="160" alt="Bread_canny_1_dup1.jpg"><br>
-      <code>Bread_canny_1_dup1.jpg</code>
+      <img src="data/Bread_canny_1_dup.jpg" width="160" alt="Bread_canny_1_dup.jpg"><br>
+      <code>Bread_canny_1_dup.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Bread_depth_1.jpg" width="160" alt="Bread_depth_1.jpg"><br>
@@ -169,8 +171,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Bus_canny_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Bus_hed_1_dup1.jpg" width="160" alt="Bus_hed_1_dup1.jpg"><br>
-      <code>Bus_hed_1_dup1.jpg</code>
+      <img src="data/Bus_hed_1.jpg" width="160" alt="Bus_hed_1.jpg"><br>
+      <code>Bus_hed_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Bus_hed_3.jpg" width="160" alt="Bus_hed_3.jpg"><br>
@@ -257,8 +259,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Close_depth_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Close_depth_2_dup1.jpg" width="160" alt="Close_depth_2_dup1.jpg"><br>
-      <code>Close_depth_2_dup1.jpg</code>
+      <img src="data/Close_depth_2_dup.jpg" width="160" alt="Close_depth_2_dup.jpg"><br>
+      <code>Close_depth_2_dup.jpg</code>
     </td>
   </tr>
   <tr>
@@ -397,8 +399,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Excuse_me_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Excuse_me_depth_1_dup1.jpg" width="160" alt="Excuse_me_depth_1_dup1.jpg"><br>
-      <code>Excuse_me_depth_1_dup1.jpg</code>
+      <img src="data/Excuse_me_depth_1_dup.jpg" width="160" alt="Excuse_me_depth_1_dup.jpg"><br>
+      <code>Excuse_me_depth_1_dup.jpg</code>
     </td>
   </tr>
   <tr>
@@ -425,8 +427,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Father_depth_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Father_depth_2_dup1.jpg" width="160" alt="Father_depth_2_dup1.jpg"><br>
-      <code>Father_depth_2_dup1.jpg</code>
+      <img src="data/Father_depth_2_dup.jpg" width="160" alt="Father_depth_2_dup.jpg"><br>
+      <code>Father_depth_2_dup.jpg</code>
     </td>
   </tr>
   <tr>
@@ -505,8 +507,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Give_canny_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Give_depth_1_dup1.jpg" width="160" alt="Give_depth_1_dup1.jpg"><br>
-      <code>Give_depth_1_dup1.jpg</code>
+      <img src="data/Give_depth_1.jpg" width="160" alt="Give_depth_1.jpg"><br>
+      <code>Give_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Give_depth_2.jpg" width="160" alt="Give_depth_2.jpg"><br>
@@ -547,8 +549,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Goodbye_openpose_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Goodbye_openpose_2_dup1.jpg" width="160" alt="Goodbye_openpose_2_dup1.jpg"><br>
-      <code>Goodbye_openpose_2_dup1.jpg</code>
+      <img src="data/Goodbye_openpose_2.jpg" width="160" alt="Goodbye_openpose_2.jpg"><br>
+      <code>Goodbye_openpose_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Goodbye_openpose_3.jpg" width="160" alt="Goodbye_openpose_3.jpg"><br>
@@ -557,8 +559,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Grandfather_seg_1_dup1.jpg" width="160" alt="Grandfather_seg_1_dup1.jpg"><br>
-      <code>Grandfather_seg_1_dup1.jpg</code>
+      <img src="data/Grandfather_seg_1.jpg" width="160" alt="Grandfather_seg_1.jpg"><br>
+      <code>Grandfather_seg_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Grandfather_seg_2.jpg" width="160" alt="Grandfather_seg_2.jpg"><br>
@@ -613,8 +615,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Help_openpose_1_dup1.jpg" width="160" alt="Help_openpose_1_dup1.jpg"><br>
-      <code>Help_openpose_1_dup1.jpg</code>
+      <img src="data/Help_openpose_1.jpg" width="160" alt="Help_openpose_1.jpg"><br>
+      <code>Help_openpose_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Help_openpose_2.jpg" width="160" alt="Help_openpose_2.jpg"><br>
@@ -655,8 +657,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Hungry_canny_1_dup1.jpg" width="160" alt="Hungry_canny_1_dup1.jpg"><br>
-      <code>Hungry_canny_1_dup1.jpg</code>
+      <img src="data/Hungry_canny_1.jpg" width="160" alt="Hungry_canny_1.jpg"><br>
+      <code>Hungry_canny_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Hungry_canny_2.jpg" width="160" alt="Hungry_canny_2.jpg"><br>
@@ -669,12 +671,12 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Juice_depth_1_dup1.jpg" width="160" alt="Juice_depth_1_dup1.jpg"><br>
-      <code>Juice_depth_1_dup1.jpg</code>
+      <img src="data/Juice_depth_1.jpg" width="160" alt="Juice_depth_1.jpg"><br>
+      <code>Juice_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Juice_depth_1_dup2.jpg" width="160" alt="Juice_depth_1_dup2.jpg"><br>
-      <code>Juice_depth_1_dup2.jpg</code>
+      <img src="data/Juice_depth_1_dup.jpg" width="160" alt="Juice_depth_1_dup.jpg"><br>
+      <code>Juice_depth_1_dup.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Juice_depth_2.jpg" width="160" alt="Juice_depth_2.jpg"><br>
@@ -697,8 +699,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Later_hed_1_dup1.jpg" width="160" alt="Later_hed_1_dup1.jpg"><br>
-      <code>Later_hed_1_dup1.jpg</code>
+      <img src="data/Later_hed_1.jpg" width="160" alt="Later_hed_1.jpg"><br>
+      <code>Later_hed_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Later_hed_2.jpg" width="160" alt="Later_hed_2.jpg"><br>
@@ -799,8 +801,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Medicine_depth_3.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Medicine_hed_1_dup1.jpg" width="160" alt="Medicine_hed_1_dup1.jpg"><br>
-      <code>Medicine_hed_1_dup1.jpg</code>
+      <img src="data/Medicine_hed_1.jpg" width="160" alt="Medicine_hed_1.jpg"><br>
+      <code>Medicine_hed_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Medicine_hed_2.jpg" width="160" alt="Medicine_hed_2.jpg"><br>
@@ -827,8 +829,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>More_canny_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/More_canny_2_dup1.jpg" width="160" alt="More_canny_2_dup1.jpg"><br>
-      <code>More_canny_2_dup1.jpg</code>
+      <img src="data/More_canny_2_dup.jpg" width="160" alt="More_canny_2_dup.jpg"><br>
+      <code>More_canny_2_dup.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/More_seg_1.jpg" width="160" alt="More_seg_1.jpg"><br>
@@ -865,8 +867,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Now_depth_1_dup1.jpg" width="160" alt="Now_depth_1_dup1.jpg"><br>
-      <code>Now_depth_1_dup1.jpg</code>
+      <img src="data/Now_depth_1.jpg" width="160" alt="Now_depth_1.jpg"><br>
+      <code>Now_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Now_depth_2.jpg" width="160" alt="Now_depth_2.jpg"><br>
@@ -893,16 +895,16 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Pain_depth_1_dup1.jpg" width="160" alt="Pain_depth_1_dup1.jpg"><br>
-      <code>Pain_depth_1_dup1.jpg</code>
+      <img src="data/Pain_depth_1.jpg" width="160" alt="Pain_depth_1.jpg"><br>
+      <code>Pain_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Pain_depth_2.jpg" width="160" alt="Pain_depth_2.jpg"><br>
       <code>Pain_depth_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Pain_depth_2_dup1.jpg" width="160" alt="Pain_depth_2_dup1.jpg"><br>
-      <code>Pain_depth_2_dup1.jpg</code>
+      <img src="data/Pain_depth_2_dup.jpg" width="160" alt="Pain_depth_2_dup.jpg"><br>
+      <code>Pain_depth_2_dup.jpg</code>
     </td>
   </tr>
   <tr>
@@ -911,8 +913,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Park_depth_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Park_seg_1_dup1.jpg" width="160" alt="Park_seg_1_dup1.jpg"><br>
-      <code>Park_seg_1_dup1.jpg</code>
+      <img src="data/Park_seg_1.jpg" width="160" alt="Park_seg_1.jpg"><br>
+      <code>Park_seg_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Park_seg_3.jpg" width="160" alt="Park_seg_3.jpg"><br>
@@ -921,8 +923,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/People_seg_1_dup1.jpg" width="160" alt="People_seg_1_dup1.jpg"><br>
-      <code>People_seg_1_dup1.jpg</code>
+      <img src="data/People_seg_1.jpg" width="160" alt="People_seg_1.jpg"><br>
+      <code>People_seg_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/People_seg_2.jpg" width="160" alt="People_seg_2.jpg"><br>
@@ -1019,8 +1021,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Rest_depth_1_dup1.jpg" width="160" alt="Rest_depth_1_dup1.jpg"><br>
-      <code>Rest_depth_1_dup1.jpg</code>
+      <img src="data/Rest_depth_1.jpg" width="160" alt="Rest_depth_1.jpg"><br>
+      <code>Rest_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Rest_depth_2.jpg" width="160" alt="Rest_depth_2.jpg"><br>
@@ -1089,8 +1091,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Scared_depth_1_dup1.jpg" width="160" alt="Scared_depth_1_dup1.jpg"><br>
-      <code>Scared_depth_1_dup1.jpg</code>
+      <img src="data/Scared_depth_1.jpg" width="160" alt="Scared_depth_1.jpg"><br>
+      <code>Scared_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Scared_depth_2.jpg" width="160" alt="Scared_depth_2.jpg"><br>
@@ -1117,8 +1119,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Shower_canny_1_dup1.jpg" width="160" alt="Shower_canny_1_dup1.jpg"><br>
-      <code>Shower_canny_1_dup1.jpg</code>
+      <img src="data/Shower_canny_1.jpg" width="160" alt="Shower_canny_1.jpg"><br>
+      <code>Shower_canny_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Shower_canny_2.jpg" width="160" alt="Shower_canny_2.jpg"><br>
@@ -1149,8 +1151,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Sister_depth_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Sister_openpose_1_dup1.jpg" width="160" alt="Sister_openpose_1_dup1.jpg"><br>
-      <code>Sister_openpose_1_dup1.jpg</code>
+      <img src="data/Sister_openpose_1.jpg" width="160" alt="Sister_openpose_1.jpg"><br>
+      <code>Sister_openpose_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Sister_openpose_3.jpg" width="160" alt="Sister_openpose_3.jpg"><br>
@@ -1163,8 +1165,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Sleep_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Sleep_depth_2_dup1.jpg" width="160" alt="Sleep_depth_2_dup1.jpg"><br>
-      <code>Sleep_depth_2_dup1.jpg</code>
+      <img src="data/Sleep_depth_2.jpg" width="160" alt="Sleep_depth_2.jpg"><br>
+      <code>Sleep_depth_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Sleep_depth_3.jpg" width="160" alt="Sleep_depth_3.jpg"><br>
@@ -1187,8 +1189,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Stop_hed_1_dup1.jpg" width="160" alt="Stop_hed_1_dup1.jpg"><br>
-      <code>Stop_hed_1_dup1.jpg</code>
+      <img src="data/Stop_hed_1.jpg" width="160" alt="Stop_hed_1.jpg"><br>
+      <code>Stop_hed_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Stop_hed_2.jpg" width="160" alt="Stop_hed_2.jpg"><br>
@@ -1219,8 +1221,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Street_canny_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Street_seg_2_dup1.jpg" width="160" alt="Street_seg_2_dup1.jpg"><br>
-      <code>Street_seg_2_dup1.jpg</code>
+      <img src="data/Street_seg_2.jpg" width="160" alt="Street_seg_2.jpg"><br>
+      <code>Street_seg_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Street_seg_3.jpg" width="160" alt="Street_seg_3.jpg"><br>
@@ -1251,8 +1253,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Taco_depth_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Taco_depth_2_dup1.jpg" width="160" alt="Taco_depth_2_dup1.jpg"><br>
-      <code>Taco_depth_2_dup1.jpg</code>
+      <img src="data/Taco_depth_2_dup.jpg" width="160" alt="Taco_depth_2_dup.jpg"><br>
+      <code>Taco_depth_2_dup.jpg</code>
     </td>
   </tr>
   <tr>
@@ -1317,8 +1319,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Thank_you_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Thank_you_depth_1_dup1.jpg" width="160" alt="Thank_you_depth_1_dup1.jpg"><br>
-      <code>Thank_you_depth_1_dup1.jpg</code>
+      <img src="data/Thank_you_depth_1_dup.jpg" width="160" alt="Thank_you_depth_1_dup.jpg"><br>
+      <code>Thank_you_depth_1_dup.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Thank_you_hed_2.jpg" width="160" alt="Thank_you_hed_2.jpg"><br>
@@ -1327,8 +1329,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Thirsty_hed_1_dup1.jpg" width="160" alt="Thirsty_hed_1_dup1.jpg"><br>
-      <code>Thirsty_hed_1_dup1.jpg</code>
+      <img src="data/Thirsty_hed_1.jpg" width="160" alt="Thirsty_hed_1.jpg"><br>
+      <code>Thirsty_hed_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Thirsty_hed_2.jpg" width="160" alt="Thirsty_hed_2.jpg"><br>
@@ -1369,8 +1371,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Toy_canny_1_dup1.jpg" width="160" alt="Toy_canny_1_dup1.jpg"><br>
-      <code>Toy_canny_1_dup1.jpg</code>
+      <img src="data/Toy_canny_1.jpg" width="160" alt="Toy_canny_1.jpg"><br>
+      <code>Toy_canny_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Toy_canny_2.jpg" width="160" alt="Toy_canny_2.jpg"><br>
@@ -1383,12 +1385,12 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Vegetables_hed_1_dup1.jpg" width="160" alt="Vegetables_hed_1_dup1.jpg"><br>
-      <code>Vegetables_hed_1_dup1.jpg</code>
+      <img src="data/Vegetables_hed_1.jpg" width="160" alt="Vegetables_hed_1.jpg"><br>
+      <code>Vegetables_hed_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Vegetables_hed_1_dup2.jpg" width="160" alt="Vegetables_hed_1_dup2.jpg"><br>
-      <code>Vegetables_hed_1_dup2.jpg</code>
+      <img src="data/Vegetables_hed_1_dup.jpg" width="160" alt="Vegetables_hed_1_dup.jpg"><br>
+      <code>Vegetables_hed_1_dup.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Vegetables_hed_2.jpg" width="160" alt="Vegetables_hed_2.jpg"><br>
@@ -1401,8 +1403,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Wait_canny_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Wait_depth_2_dup1.jpg" width="160" alt="Wait_depth_2_dup1.jpg"><br>
-      <code>Wait_depth_2_dup1.jpg</code>
+      <img src="data/Wait_depth_2.jpg" width="160" alt="Wait_depth_2.jpg"><br>
+      <code>Wait_depth_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Wait_depth_3.jpg" width="160" alt="Wait_depth_3.jpg"><br>
@@ -1425,8 +1427,8 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Wash_depth_1_dup1.jpg" width="160" alt="Wash_depth_1_dup1.jpg"><br>
-      <code>Wash_depth_1_dup1.jpg</code>
+      <img src="data/Wash_depth_1.jpg" width="160" alt="Wash_depth_1.jpg"><br>
+      <code>Wash_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Wash_depth_2.jpg" width="160" alt="Wash_depth_2.jpg"><br>
@@ -1457,8 +1459,8 @@ Below is the complete collection of pictograms included in this dataset:
       <code>What_canny_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/What_hed_1_dup1.jpg" width="160" alt="What_hed_1_dup1.jpg"><br>
-      <code>What_hed_1_dup1.jpg</code>
+      <img src="data/What_hed_1.jpg" width="160" alt="What_hed_1.jpg"><br>
+      <code>What_hed_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/What_hed_3.jpg" width="160" alt="What_hed_3.jpg"><br>
@@ -1481,12 +1483,12 @@ Below is the complete collection of pictograms included in this dataset:
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <img src="data/Where_canny_1_dup1.jpg" width="160" alt="Where_canny_1_dup1.jpg"><br>
-      <code>Where_canny_1_dup1.jpg</code>
+      <img src="data/Where_canny_1.jpg" width="160" alt="Where_canny_1.jpg"><br>
+      <code>Where_canny_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Where_canny_2_dup1.jpg" width="160" alt="Where_canny_2_dup1.jpg"><br>
-      <code>Where_canny_2_dup1.jpg</code>
+      <img src="data/Where_canny_2.jpg" width="160" alt="Where_canny_2.jpg"><br>
+      <code>Where_canny_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Where_canny_3.jpg" width="160" alt="Where_canny_3.jpg"><br>
