@@ -11,7 +11,7 @@ To maintain the double-blind review process, all personal identifiers and file m
 Each pictogram in this dataset follows a structured naming pattern:
 
 ```text
-{concept}_{condition_map}_{ranking}.ext
+{concept}_{condition_map}_{ranking}.jpg
 ```
 
 Where each field represents:
@@ -731,7 +731,7 @@ Below is the complete collection of pictograms included in this dataset:
       <code>Look_depth_1.jpg</code>
     </td>
     <td align="center" valign="bottom">
-      <img src="data/Look_hed_2_dup1.jpg" width="160" alt="Look_hed_2_dup1.jpg"><br>
+      <img src="data/Look_hed_2.jpg" width="160" alt="Look_hed_2.jpg"><br>
       <code>Look_hed_2_dup1.jpg</code>
     </td>
     <td align="center" valign="bottom">
