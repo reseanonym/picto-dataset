@@ -732,7 +732,7 @@ Below is the complete collection of pictograms included in this dataset:
     </td>
     <td align="center" valign="bottom">
       <img src="data/Look_hed_2.jpg" width="160" alt="Look_hed_2.jpg"><br>
-      <code>Look_hed_2_dup1.jpg</code>
+      <code>Look_hed_2.jpg</code>
     </td>
     <td align="center" valign="bottom">
       <img src="data/Look_hed_3.jpg" width="160" alt="Look_hed_3.jpg"><br>
